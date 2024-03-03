@@ -3,7 +3,7 @@
 This project has been built in Java, Gradle is used for dependency management and JUnit5 is used for Unit Testing.
 
 ## How To Run
-1. Open this project in IntelliJ IDEA or any other IDE
+1. Open this project in IntelliJ IDEA
 2. Run Gradle -> Tasks -> build ->  jar to create a jar in build/libs/ folder
 3. Run the following command to execute the JAR file with the custom parameters:
     ```
