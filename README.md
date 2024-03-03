@@ -2,14 +2,16 @@
 
 This project has been built in Java. Gradle is used for dependency management and JUnit5 is used for Unit Testing.
 
-## How To Run
+## How to Setup Locally
 1. Open this project in IntelliJ IDEA
-2. Run Gradle -> Tasks -> build ->  jar to create a jar in build/libs/ folder
+2. Run Gradle -> Tasks -> build ->  jar to create a jar in the build/libs/ folder
 3. Run the following command to execute the JAR file with the custom parameters:
+
     ```
     java -jar cron-expression-parser-1.0-SNAPSHOT.jar "*/15 0 1,15 * 1-5 /usr/bin/find"
     ```
-4. Above command will generate an output like this:
+4. The above command will generate an output like this:
+
     ```
     $ java -jar cron-expression-parser-1.0-SNAPSHOT.jar "*/15 0 1,15 * 1-5 /usr/bin/find"
     minute        0 15 30 45
@@ -19,6 +21,11 @@ This project has been built in Java. Gradle is used for dependency management an
     day of week   1 2 3 4 5
     command       /usr/bin/find
     ```
+## How to Run Tests
+1. Run Gradle -> Tasks -> verification -> test to run all the tests
+2. It should run all the tests and will look like this:
+
+    <img width="782" alt="Screenshot 2024-03-04 at 3 23 04 AM" src="https://github.com/rajatgoyal715/cron-expression-parser/assets/18263409/9e0c8e99-f96e-4521-a6a0-b70c86b33e03">
 
 ## Problem Statement
 Write a command line application or script which parses a cron string and expands each field to show the times at which it will run. You may use whichever language you feel most comfortable with.
