@@ -1,6 +1,6 @@
 # Cron Expression Parser
 
-This project has been built in Java, Gradle is used for dependency management and JUnit5 is used for Unit Testing.
+This project has been built in Java. Gradle is used for dependency management and JUnit5 is used for Unit Testing.
 
 ## How To Run
 1. Open this project in IntelliJ IDEA
@@ -20,7 +20,7 @@ This project has been built in Java, Gradle is used for dependency management an
     command       /usr/bin/find
     ```
 
-## Problem Statement - Cron Expression Parser
+## Problem Statement
 Write a command line application or script which parses a cron string and expands each field to show the times at which it will run. You may use whichever language you feel most comfortable with.
 
 You should only consider the standard cron format with five time fields (minute, hour, day of month, month, and day of week) plus a command, and you do not need to handle the special time strings such as "@yearly". The input will be on a single line.
